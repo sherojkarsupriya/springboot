@@ -6,6 +6,8 @@ public class laptop {
 	private String laptopName;
 	private String laptopProcessor;
 	private int laptopPrice;
+	
+	//gentrate constructor field to assign values
 	public laptop(int laptopId, String laptopName, String laptopProcessor, int laptopPrice) {
 		super();
 		this.laptopId = laptopId;
@@ -13,6 +15,7 @@ public class laptop {
 		this.laptopProcessor = laptopProcessor;
 		this.laptopPrice = laptopPrice;
 	}
+	//genrating getters and setters
 	public int getLaptopId() {
 		return laptopId;
 	}
@@ -37,6 +40,7 @@ public class laptop {
 	public void setLaptopPrice(int laptopPrice) {
 		this.laptopPrice = laptopPrice;
 	}
+	//genrating toString methods
 	@Override
 	public String toString() {
 		return "laptop [laptopId=" + laptopId + ", laptopName=" + laptopName + ", laptopProcessor=" + laptopProcessor
